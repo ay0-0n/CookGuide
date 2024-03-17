@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+}
+
+.font-fira{
+    font-family: 'Fira Sans', sans-serif;
+}   
+
+td, th{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+}
+
+tr{
+    background-color: rgba(40, 40, 40, 0.03);
+    color: rgba(40, 40, 40, 0.70);
+    font-family: "Fira Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
